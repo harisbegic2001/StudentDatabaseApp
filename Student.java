@@ -75,5 +75,9 @@ public int izbrisanKurs(String predmet){
 
 }
 
+public void ispisKorisnika() {
+    System.out.println("Ime i prezime studenta:" + name + " " + lastName + ", Student:" + gradeYear + ". godine, na stanju ima:" + " " + balance + "KM" + ", njegov id je: " + " " + id + " " + "i trenutno pohađa kurseve: " + courses );
+}
+
 
 }
